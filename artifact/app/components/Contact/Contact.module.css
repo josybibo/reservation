@@ -151,7 +151,7 @@
 
 @media (max-width: 768px) {  /* For screens less than 768px wide */
     .contact {
-        flex-direction: column-reverse;  /* Reverse order on smaller screens */
+        flex-direction: column;  /* Reverse order on smaller screens */
         justify-content: space-between; /* More space between content and footer */
     }
 }
